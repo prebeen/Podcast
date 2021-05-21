@@ -1,0 +1,199 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+body {
+   
+    background-color: #86a5d9;/*#0B132B;*/
+    
+    font-family: 'Montserrat', sans-serif;
+    color:#202a25;
+}
+
+
+
+.title {
+    
+    text-align: center;
+    animation-name: fade;
+    animation-duration: 1s;
+
+}
+
+.alle {
+    text-align:center;
+    padding-bottom: 10px;
+
+    font-size: 32px;
+    /* border-bottom:solid white; */
+    /* margin-top: -100px; */
+}
+
+.Hero {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+    margin-bottom: 100px;
+    text-align:center;
+    font-size: 24px;
+    animation-name: fade;
+    animation-duration: 1s;
+    
+}
+
+.episode {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 25%;
+    font-size: 18px;
+    text-align: center;
+    transition: width 2s;
+}
+.episode:hover {
+    
+    transition-delay: .05s;
+    width: 20%;
+}
+.epi_tit {
+width:auto;
+
+}
+
+
+.Tags {
+    margin-top: 0px;
+}
+
+
+.topnav {
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    background-color: #846ee7;/*#86a5d9;*/
+    overflow: hidden;
+  }
+  
+  
+  .topnav a {
+      /* display:flex; */
+      /* justify-content:space-evenly; */
+    float: left; 
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-right: solid 2px white; /*kanskje vet egt ikke om det så mad fugly ut eller*/
+    /* animation-name: fade; */
+    /* animation-duration: 1s; */
+    
+
+  }
+  
+  
+  .topnav a:hover {
+    
+    color: rgb(65, 55, 55);
+    transition: background-color .5s;
+    background-color: #c4ebc8;
+  }
+  
+  
+  .topnav a.active {
+    background-color: #728cb8;
+    color: white;
+  }
+  
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #3a506b;
+    color: white;
+    text-align: center;
+  }
+  
+  .aboutPage {
+   text-align:center;
+   font-size: 32px;
+   padding-top: 100px;
+   padding-bottom:100px;
+
+   background-color:#546fc0;
+   
+   border-radius: 10px;
+   animation-name: fade;
+   animation-duration: 500ms;
+   transition: transform 1s, padding-top 1s, padding-bottom 1s;
+   
+  }
+  .aboutPage:hover {
+    transform: scaleY(1.1);
+
+
+  }
+
+  .episode-list {
+      display: flex;
+      justify-content:space-evenly;
+      list-style-type: none;
+      animation-name: fade;
+      animation-duration: 1s;
+     
+  }
+
+  .episode-pictures {
+   display:flex;
+   justify-content: space-evenly;
+  }
+
+  @keyframes fade {
+      0% {
+          filter:opacity(0);
+          color:255, 255, 255, 0;
+      }
+      10% {
+          filter:opacity(.1);
+          color: 255, 255, 255, .1;
+          }
+      20% {
+          filter:opacity(.2);
+          color: 255, 255, 255, .2;
+      }    
+      30% {
+          filter:opacity(.3);
+          color: 255, 255, 255, .3;
+      }
+      40% {
+          filter:opacity(.4);
+          color: 255, 255, 255, .4;
+      }
+      50% {
+          filter:opacity(.5);
+          color: 255, 255, 255, .5;
+      }
+      60% {
+          filter:opacity(.6);
+          color: 255, 255, 255, .6;
+      }
+      70% {
+          filter:opacity(.7);
+          color: 255, 255, 255, .7;
+      }
+      80% {
+          filter:opacity(.8);
+          color: 255, 255, 255, .8;
+      }
+      90% {
+          filter:opacity(.9);
+          color: 255, 255, 255, .9;
+      }
+      100% {
+          filter:opacity(1);
+          color: 255, 255, 255, 1;
+      }
+    }
+
+  
